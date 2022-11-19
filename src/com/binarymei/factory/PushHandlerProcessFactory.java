@@ -19,7 +19,7 @@ import java.util.Map;
  * @Date: 2022/11/9
  * @Description: 推送责任链消息的工厂 为不同用户生成不同的推送任务
  */
-public class PushHandlerProcessFactory<T> {
+public class PushHandlerProcessFactory {
     //定义一个map用于取出责任链
     private static Map<String,List> dutyMap = new HashMap<>();
     //利用静态代码块对责任链进行封装
